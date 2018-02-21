@@ -3,9 +3,7 @@ package zhang.jun.leetcode;
 public class ListNode {
 
     ListNode next;
-    Integer val;
+    int val;
 
-    ListNode(Integer val){
-        this.val = val;
-    }
+    ListNode(int x) { val = x; }
 }
